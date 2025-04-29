@@ -1,0 +1,240 @@
+body{
+	/*background-image es para imagen de fondo */
+	background-image:url("../imagenes/fondo 4.jpg");
+	/*font-family es para tipografia de letra */
+	font-family:Bunny;
+	/*color es para el color de las letras*/
+	color:#7FB3D5;
+	/*font-size es para el tamaño de las letras indicando pixeles*/
+	font-size:40px;
+	text-align:center;
+}
+.texto1{
+	font-family:Bunny;
+	text-align:center;
+	font-size:8px;
+	color:#8D6E63;
+	background-color:#8D6E63;
+}
+hr{
+	/*border es para la linea el grosor se indica en pixeles indicamos el tipo de linea y el codigo del color*/
+	border:3px solid #A3E4D7;
+	/*width es para el ancho de la linea*/
+	width:80%;
+	/**/
+	border-radius:5px;
+	
+}
+p{
+	text-align:center;
+	font-size:25px;
+	color:#3498DB;
+	/*negrillas*/
+	font-weight:bold;
+	/*interlineado*/
+	line-height:1.15;
+	/*color de fondo*/
+	background-color
+}
+table,tr,td{
+	border:1px solid #000000;
+	border-spacing:0;
+	background-color:#3498DB; 
+	/*atributos para el texto o comtenido de la tabla*/
+	font-size:20px;
+	text-align:center;
+	font-weight:hold;
+}
+/*clase que se hace para los pies de pagina*/
+.pie{
+	font-family:Bunny;
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	color:#000000;
+}
+.encabezado{
+	font-family:Bunny;
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;
+	color:#3498DB;
+}
+/*Divs*/
+div#top{
+	width:100%;
+	height:75px;
+	background-image:linear-gradient(#3498DB,#2874A6);
+}
+div#ppag{
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#3498DB,#2874A6);
+}
+/*Carrousel de imagenes*/
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box;
+}
+.contecarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing;border-box;
+}
+.itemcarrouseltarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows > i:hover{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller > a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemcarrouselarrows > a > i{
+	color:white;
+}
+/*Cajas de productos*/
+.caja{
+	height:300px;
+	width:250px;
+	background:#849fd2 ;
+	border:1px solid ##2369cf;
+	margin:5px;
+	color:blue;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px #239dcf;
+	transform: scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:red;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+div#vk{
+	text-align:center;
+	padding-top:5px;
+	font-size:20px;
+	font-family:"Arial Rounded MT Bold","Taboma";
+	color:black;
+	height:150px;
+	width:450px;
+	background-color:#849fd2;
+	border:1px solid #d36666;
+}
+.navegacion{
+	display:flex;
+	height:100px;
+}
+.navegacion-item{
+	flex:1;
+	color:#C368B9;
+	font-weight:bold;
+	font-size:18px;
+	display:flex;
+	transition: flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+}
+.navegacion-titulo{
+	margin:0;
+	transform:rotate(-90deg);
+	transition:transform 0.2s 0.2s;
+}
+.navegacion-item:hover{
+	flex-grow:10;
+}
+.navegacion-item:hover .navegacion-titulo{
+	transform:rotate(0);
+}
+.navegacion-item:nth-child(1){
+	background:#84b2d2;
+}
+.navegacion-item:nth-child(2){
+	background:#84b2d2;
+}
+.navegacion-item:nth-child(3){
+	background:#84b2d2;
+}
+.navegacion-item:nth-child(4){
+	background:#84b2d2;
+}
+.texto-CONTACTOS{
+	display:Flex;
+	Align-items:center;
+	margin:20px;
+	border:1px solid #84b2d2;
+	padding:20px;
+}
+.texto-CONTACTOS img{
+	max-width:500px;
+	margin-right:20px;
+}
+.caja-CONTACTOS{
+	border:1px solid ##84b2d2;
+	border-spacing:0px;
+	background-color:#FFFFFF;
+	right:0;
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+@font-face{
+	font-family:Bunny;
+	src:(../fuentes/Chonky-Bunny.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
